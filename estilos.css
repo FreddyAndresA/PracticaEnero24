@@ -134,3 +134,12 @@ a {
     border-bottom: 100px solid red;
     border-right: 100px solid transparent;
 }
+
+.footer {
+    background-color: red;
+    width: 90%;
+    height: 3rem;
+    margin: 0 auto;
+    position: relative;
+    bottom: 2rem;
+}
