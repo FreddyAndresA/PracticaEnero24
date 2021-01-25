@@ -26,6 +26,12 @@ a {
     align-items: center;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header {
     background-color: red;
     padding: 1.5rem;
@@ -71,5 +77,60 @@ a {
     display: block;
 }
 
+.main {
+    padding: 30px;
+}
 
+.section {
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
 
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-left: 200px solid transparent;
+    border-top: 100px solid yellow;
+    border-bottom: 100px solid red;
+}
+
+.elipse_v {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    clip-path: ellipse(30% 50% at 50% 50%);
+}
+
+.triangle {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.elipse_h {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    clip-path: ellipse(50% 30% at 50% 50%);
+}
+
+.diamond {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.pacman {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-left: 100px solid blue;
+    border-top: 100px solid yellow;
+    border-bottom: 100px solid red;
+    border-right: 100px solid transparent;
+}
